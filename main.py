@@ -81,7 +81,6 @@ def co_format(co: float) -> str:
 def run_station():
     current = "celsius"
     print_fun("It works!")
-    print_fun("Calibrating sensors...")
     mq7sensor.calibrate()
     
     #main loop
