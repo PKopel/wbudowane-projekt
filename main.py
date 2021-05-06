@@ -7,8 +7,8 @@ from bmx280 import BMX280
 from mq7 import MQ7
 from BaseMQ import BaseMQ
 
-I2C_ADDR_LCD    = 0x27
-I2C_ADDR_BMP    = 0x76
+I2C_ADDR_LCD = 0x27
+I2C_ADDR_BMP = 0x76
 I2C_NUM_ROWS = 2
 I2C_NUM_COLS = 16
 
